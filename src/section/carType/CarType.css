@@ -1,0 +1,25 @@
+.colorCircle-box{
+    margin-top: 8px;
+    flex-direction: row !important;
+    gap: 0 15px;
+}
+
+.blackColorBtn,
+.whiteColorBtn,
+.B2A69AColorBtn
+{
+    width: 36px;
+    height: 36px;
+    background: #262626;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: none;
+}
+
+.whiteColorBtn{
+    background-color: #EFEFEF;
+}
+
+.B2A69AColorBtn{
+    background-color: #E6DDD0;
+}

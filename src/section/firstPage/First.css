@@ -1,0 +1,103 @@
+.whiteCarBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 0;
+    height: 100vh;
+}
+
+.powerReserveAndPrice{
+    display: flex;
+    gap: 117px;
+    margin-bottom: 5px;
+}
+
+.powerReserveAndPrice div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+}
+
+.powerReserveAndPrice div span{
+    color: #707070;
+    font-size: 20px;
+}
+
+.powerReserveAndPrice div b{
+    color: #000;
+    font-size: 64px;
+}
+
+/*  */
+.machineEquipmentAdjust-box{
+    display: flex;
+    align-items: center;
+    gap: 0 54px;
+}
+.vehicleSpeed{
+    display: flex;
+    align-items: center;
+    gap: 0 34px;
+}
+
+.vehicleSpeed span{
+    color: #707070;
+    font-size: 14px;
+}
+
+.vehicleSpeed b{
+    font-size: 48px;
+}
+
+.vehicleSpeed div {
+    display: flex;
+    flex-direction: column;
+}
+
+.vehicleSpeed__arrow-box{
+    gap: 6px 0;
+}
+
+.vehicleSpeed__arrow-box svg{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+
+/*  */
+.toggle-box{
+    color: #707070;
+}
+
+.toggle-box span{
+    font-size: 14px;
+}
+
+.bg-toggle{
+    margin-top: 8px;
+    width: 39px;
+    min-height: 24px;
+    background: #8E9AA7;
+    border-radius: 46px;
+    display: flex;
+    align-items: center;
+    padding: 0 3px 0 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.toggle-round{
+    height: 18px;
+    width: 47%;
+    background: white;
+    border-radius: 50%;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.active{
+    justify-content: end;
+    background-color: dodgerblue;
+}
